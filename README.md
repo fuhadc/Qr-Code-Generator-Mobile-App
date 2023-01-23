@@ -2,16 +2,16 @@
 
 
 
- // Naming Edit text ,Button and image view 
+Naming Edit text ,Button and image view 
                         
                         EditText etInput;
                         Button bt_generate;
                         ImageView iv_output;
 
-   // seting opening page as activity_main.xml
+seting opening page as activity_main.xml
    setContentView(R.layout.activity_main);
 
-   // Defining  Edit text ,Button and image view by id
+Defining  Edit text ,Button and image view by id
 
                 etInput = findViewById(R.id.et_input);
                 bt_generate = findViewById(R.id.bt_generate);
@@ -19,7 +19,7 @@
 
  opening on click listener for button 
          
-         // bt_generate.setOnClickListener(new View.OnClickListener() {
+         bt_generate.setOnClickListener(new View.OnClickListener() {
          getting input from edit txt and saving it to a variable called sText 
                            
                            //String sText = etInput.getText().toString().trim();
